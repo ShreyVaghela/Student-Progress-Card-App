@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update__marks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context="com.example.android.studentprogresscard.Update_Marks">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Marks:"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/ct_marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Class Test"
+        android:textSize="32dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_green_light"
+        android:inputType="textCapWords"
+        android:layout_marginTop="60dp"
+        />
+    <EditText
+        android:id="@+id/se_marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sessional"
+        android:textSize="32dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_green_light"
+        android:inputType="textCapWords"
+        android:layout_marginTop="120dp"
+        />
+    <EditText
+        android:id="@+id/ia_marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Innovative Assignment"
+        android:textSize="32dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_green_light"
+        android:inputType="textCapWords"
+        android:layout_marginTop="180dp"
+        />
+    <EditText
+        android:id="@+id/see_marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semester End Examination"
+        android:textSize="32dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_green_light"
+        android:inputType="textCapWords"
+        android:layout_marginTop="240dp"
+        />
+    <Button
+        android:id="@+id/up_submit"
+        android:onClick="up_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="145dp"/>
+</RelativeLayout>

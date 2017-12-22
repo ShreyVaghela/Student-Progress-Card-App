@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="18"
+    tools:context="com.example.android.studentprogresscard.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Progress Card App"
+        android:textSize="25sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reports_icon"
+        android:layout_weight="16"
+        android:id="@+id/imageView2" />
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="signUp"
+        android:text="Sign Up"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="75dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"/>
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="signIn"
+        android:text="Sign In"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"/>
+
+
+
+</LinearLayout>
